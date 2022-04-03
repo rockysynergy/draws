@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T06:40:49.038Z" agent="5.0 (Windows)" etag="E8XYdxn0FybtImxyMdDS" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-03T06:42:32.444Z" agent="5.0 (Windows)" etag="WJMByPGutGC5xTA9rhEt" version="17.4.0" type="github">
   <diagram id="Cojw7_Yz68KiZyoo5ue1" name="Page-1">
     <mxGraphModel dx="1038" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#f6f6f6" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XdXcWir25vY_QgZHu3hT-5" value="Offer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="240" width="260" height="346" as="geometry" />
+          <mxGeometry x="290" y="240" width="260" height="372" as="geometry" />
         </mxCell>
         <mxCell id="ikrwxiIN1NQovr5HiK0k-30" value="- doctorId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XdXcWir25vY_QgZHu3hT-5" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="ikrwxiIN1NQovr5HiK0k-13" value="+ propose(int providerId, int amount): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XdXcWir25vY_QgZHu3hT-5" vertex="1">
           <mxGeometry y="320" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CIkfiJMoAI_hj2nqZ_pq-7" value="+ toDto():OfferDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XdXcWir25vY_QgZHu3hT-5">
+          <mxGeometry y="346" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XdXcWir25vY_QgZHu3hT-9" value="Nurse" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="634" y="-420" width="250" height="146" as="geometry" />

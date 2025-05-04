@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3cbW1mIkxuYeC1IMrp6c-5" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;strokeWidth=3;shadow=1;glass=0;" vertex="1" parent="1">
+        <mxCell id="3cbW1mIkxuYeC1IMrp6c-5" value="Big Data Platform Processor" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;strokeWidth=3;shadow=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="363" y="1880" width="761" height="650" as="geometry" />
         </mxCell>
         <mxCell id="LPsfI7QCcGYfZqU7F5Cg-12" value="Data Platform" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#E6E6E6;shadow=1;" parent="1" vertex="1">
